@@ -1,0 +1,40 @@
+.find-us-on__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: $main-bg-color;
+  margin-bottom: 20px;
+}
+
+.company__social--media {
+  display: flex;
+  justify-content: center;
+  }
+
+.company__social--media>li:not(:last-child){
+  margin-right: 10px;
+}
+
+
+.social__media--svg
+{ width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: $main-bg-color;
+  fill:white;
+  transition: color $time-ms $time-function, background-color $time-ms $time-function;
+}
+
+.social__media--svg:hover,
+  .social__media--svg:focus{
+  background-color: $webstudio-link-color;
+  color: $main-bg-color;
+}
+.social__media--svg:hover{
+  fill:#FFFFFF;
+}

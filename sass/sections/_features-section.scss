@@ -1,0 +1,71 @@
+
+.our__features--section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+  }
+  
+  .hidden__features--title{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0);
+    overflow: hidden;
+  }
+  
+  .features__title{
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 9px;
+  }
+  
+  .features__list{
+    display:flex
+  }
+  
+  .features__item{
+    width: 270px;
+    margin-right: 30px;
+  }
+  .features__item:last-child{
+    margin-right: 0px;
+  }
+  
+  
+  
+  .features__description{
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: $contact-detail-header;
+  }
+  
+  .our__features--container{
+    display: flex;
+    padding-top: 60;
+    }
+  
+  .our__features--container > li{
+  margin-right: 30px;
+  width:270px;
+  padding-bottom: 60px;    
+  }
+  
+  .our__features--icon{
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: $our-team-bg-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+  

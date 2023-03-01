@@ -1,0 +1,51 @@
+
+.hero__section{
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgroundphoto.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top:200px;
+  padding-bottom: 200px;
+  }
+
+.hero-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-container__title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $main-bg-color;
+  margin-bottom: 30px;
+}
+.hero-section__request-our-service-button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: $request-our-service-color;
+  color: $main-bg-color;
+  margin: 0 auto;
+  display: block;
+  border-radius: 4px;
+  border: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: box-shadow $time-ms $time-function, background-color $time-ms $time-function;
+  &:hover,
+  &:focus{box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: $request-our-service-color;
+  }
+}
+
+
