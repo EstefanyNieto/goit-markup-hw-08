@@ -49,3 +49,13 @@
 }
 
 
+.menu.toggle{
+  max-width:41px;
+  max-height:38px;
+  margin-top:38px;
+  margin-left:276px;
+
+  @media screen and (min-widht: 768px){
+    display: none;
+  }
+}
