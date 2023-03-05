@@ -12,9 +12,14 @@
   transition: color $time-ms $time-function;
 
 
-  display:none;
+  @media screen and (mind-width:768px){
+    display: flex;
+   
+  }
+  
  @media screen and (min-width:1200px){
     display: flex;
+   
   }
 }
   
@@ -27,10 +32,14 @@
     
     
 
-    @media screen and (min-width:1200px){
+    @media screen and (mind-width:768px){
       display: flex;
-      margin-left:244px;
-      
+     
+    }
+    
+   @media screen and (min-width:1200px){
+      display: flex;
+     
     }
   }
 
