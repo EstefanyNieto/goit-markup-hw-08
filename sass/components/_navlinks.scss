@@ -1,16 +1,17 @@
 
-
-
 .nav{
-
+ display: none;
+  align-items: center;
 
 @media screen and (mind-width:768px){
     display: flex;
+    margin-left: 88px;
    
   }
   
  @media screen and (min-width:1200px){
     display: flex;
+    margin-left: 97px;
    
   }
   
@@ -31,13 +32,9 @@ margin-right: 53px;
   padding-top: 32px;
   padding-bottom: 32px;
 
-
-  
- @media screen and (min-width:1200px){
-    display: flex;
   }
 
-}
+
 
 .nav__item:hover,
 .nav__item:active,
@@ -60,5 +57,7 @@ margin-right: 53px;
   height: 4px;
   border-radius: 2px;
   background-color: #2196F3;
+
+
 }
 

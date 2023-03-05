@@ -2,13 +2,16 @@
 .hero__section{
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/backgroundphoto.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: 0;
   background-repeat: no-repeat;
   padding-top:200px;
   padding-bottom: 200px;
 
+@media screen and (min-width:1200px){
+  background-position: 155px;
+  background-size: 100%;
+}
 
-  
   }
 
 .hero-container{

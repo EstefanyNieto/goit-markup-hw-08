@@ -10,17 +10,6 @@
   align-items: center;
   padding-bottom: 32px;
   transition: color $time-ms $time-function;
-
-
-  @media screen and (mind-width:768px){
-    display: flex;
-   
-  }
-  
- @media screen and (min-width:1200px){
-    display: flex;
-   
-  }
 }
   
   .contact__link:hover,
@@ -28,12 +17,12 @@
     color: $webstudio-link-color;
   }
   .contact__info{
-    display: flex;
+    display: none;
     
     
 
     @media screen and (mind-width:768px){
-      display: flex;
+      display: block;
      
     }
     
