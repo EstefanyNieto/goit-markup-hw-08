@@ -49,13 +49,21 @@
 }
 
 
-.menu.toggle{
-  max-width:41px;
-  max-height:38px;
-  margin-top:38px;
-  margin-left:276px;
-
-  @media screen and (min-widht: 768px){
-    display: none;
+.menu-toggle{
+  max-width: 41px;
+  max-height: 41px;
+  margin-top:30px;
+  margin-left: 276px;
+  
+  @media screen and (min-width:768px){
+    display:none;
   }
+}
+.menu-container{
+  display:block;
+
+  @media screen and (mind-width:768px){
+    display:none;
+  }
+
 }

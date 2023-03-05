@@ -1,7 +1,15 @@
 
+
+
 .nav{
-  display: flex; 
+
+  display:none;
+ @media screen and (min-width:1200px){
+    display: flex;
+  }
+  
 }
+
 .nav > li:first-child,
 .nav > li:nth-child(2){
 margin-right: 53px;
@@ -16,6 +24,14 @@ margin-right: 53px;
   letter-spacing: 0.02em;
   padding-top: 32px;
   padding-bottom: 32px;
+
+
+  display:none;
+ @media screen and (min-width:1200px){
+    display: flex;
+  }
+
+
 }
 .nav__item:hover,
 .nav__item:active,
