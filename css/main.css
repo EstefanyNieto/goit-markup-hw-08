@@ -5,6 +5,7 @@ body {
   color: #212121;
   font-size: 14px;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 ul {
@@ -762,7 +763,7 @@ header {
 }
 @media screen and (min-width: 1200px) {
   .hero__section {
-    background-position: 155px;
+    background-position: fixed;
     background-size: 100%;
   }
 }
