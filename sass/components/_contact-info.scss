@@ -17,13 +17,15 @@
     color: $webstudio-link-color;
   }
   .contact__info{
-    display: none;
-    
+    margin-left: auto;
+    @media screen and (max-width:767px){
+      display:none;
+    }
     
 
     @media screen and (mind-width:768px){
       display: block;
-     
+      
     }
     
    @media screen and (min-width:1200px){

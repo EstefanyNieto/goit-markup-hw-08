@@ -30,7 +30,13 @@
   text-transform: uppercase;
   color: $main-bg-color;
   margin-bottom: 30px;
+
+  
+  @media screen and (min-width:1200px){
+    font-size: 44px;
 }
+}
+
 .hero-section__request-our-service-button {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -66,10 +72,37 @@
   }
 }
 .menu-container{
+  position: fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
+  padding:32px;
+  background-color:white;
+  z-index:999;
+
+
+transform:translateX(100%);
+transition: transform 250ms ease-in-out;
   display:block;
 
-  @media screen and (mind-width:768px){
+  @media screen and (min-width:480px){
     display:none;
   }
 
+}
+
+.menu-toggle:hover,
+.menu-toggle:focus{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.menu-container.is-open{
+  transform:translateX(0);
+}
+.menu-container .menu-toggle{
+  position:absolute;
+  top:16px;
+  right:16px;
+  color:#fff;
 }

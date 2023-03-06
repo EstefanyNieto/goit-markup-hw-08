@@ -2,6 +2,13 @@
 .what-we-do__section{
   padding-bottom: 94px;
   padding-top: 0px;
+  
+  display: none;
+
+  @media screen and (min-width:1200px){
+      display: flex;
+  }
+
   }
 
 .what-we-do__title{
