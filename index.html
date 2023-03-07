@@ -51,7 +51,7 @@
       +380961111111</a>
     </li>
   </ul>
-
+<div>
   <button
   class="menu-toggle js-open-menu"
   aria-expanded="false"
@@ -67,7 +67,7 @@
       d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
       clip-rule="evenodd"></path>
   </svg>
-</button>
+  </button>
 </div>
 </header>
  <main> 
@@ -544,9 +544,8 @@
 </div>
 
 
-
 <div class="menu-container js-menu-container" id="mobile-menu">
-<button class="menu-toggle js-close-menu">
+<button class="menu-toggle menu-toggle-close  js-close-menu">
   <svg
   fill="currentColor"
   viewBox="0 0 20 20"
@@ -561,7 +560,8 @@
   ></path>
 </svg>
 </button>
-<ul class="mobile-menu">
+
+<ul class="list toggle-menu__toplinks">
   <li class="mobile-menu__item">
     <a
       href="index.html"
@@ -576,7 +576,8 @@
     <a href="index.html" class="mobile-menu__link">Contacts</a>
   </li>
 </ul>
-<ul class="mobile-menu-contacts">
+
+<ul class="list toggle-menu__bottomlinks">
   <li class="mobile-menu-contacts__item">
     <a
       href="tel:12127724150"
@@ -592,7 +593,8 @@
     >
   </li>
 </ul>
-<ul class="mobile-menu-media">
+
+<ul class="list toggle-menu__sociallinks">
   <li class="mobile-menu-media__item">
     <a href="" class="mobile-menu-media__link"
       >Instagram <span>|</span>
@@ -611,9 +613,6 @@
   </li>
 </ul>
 </div>
-
-</div>
-
 <script src="./js/modal.js"></script>
 <script src="./js/mobile-menu.js"></script>
 </body>
