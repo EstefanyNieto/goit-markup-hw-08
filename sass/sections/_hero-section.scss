@@ -7,12 +7,20 @@
   padding-top:200px;
   padding-bottom: 200px;
 
-@media screen and (min-width:1200px){
-  background-position: fixed;
-  background-size: 100%;
-}
+@media (min-device-pixel-ratio:2),
+  (-webkit-min-device-pixel-ratio:2),
+  (min-resolutio:192dpi),
+  (min-resolution:2dppx){
+    background-image: url("/images/background@2x.jpg");
+  }
+
 
   }
+
+
+
+
+
 
 .hero-container{
   display: flex;
@@ -88,11 +96,11 @@
   background-color:white;
   z-index:999;
 
-  transform: translateX(100%);
+  transform: translateX(100vw);
   transition: transform 250ms ease-in-out;
   
 
-  @media screen and (min-width:768px){
+  @media screen and (min-width:480px){
     display:none;
   }
 

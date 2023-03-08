@@ -8,8 +8,20 @@
   padding-top: 32px;
   display: flex;
   align-items: center;
-  padding-bottom: 32px;
+  
   transition: color $time-ms $time-function;
+  .contact__link > li:last-child {
+    margin-top:10 px;
+
+
+  @media screen and (mind-width:768px){
+    display: block;
+    padding-top: 0;
+    padding-bottom: 0;
+    
+  }
+
+}
 }
   
   .contact__link:hover,
@@ -36,6 +48,11 @@
 
   .contact__info > li:first-child {
     margin-right: 50px;
+
+    @media screen and (mind-width:768px){
+      margin: 0;
+      
+    }
   }
   
   .contact__icon{
