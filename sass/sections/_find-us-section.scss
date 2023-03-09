@@ -8,6 +8,20 @@
 
 }
 
+.find-us{
+  margin-right: 0px;
+    text-align: center;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    @media screen and (min-width:1200px){
+        margin-right: 93px;
+        margin-bottom: 0px;
+    }
+}
+
+
 .company__social--media {
   display: flex;
   justify-content: center;
@@ -18,9 +32,8 @@
 
 }
 
-
-.social__media--svg
-{ width: 44px;
+.social__media--svg{ 
+  width: 44px;
   height: 44px;
   display: flex;
   align-items: center;
@@ -33,10 +46,95 @@
 }
 
 .social__media--svg:hover,
-  .social__media--svg:focus{
+.social__media--svg:focus{
   background-color: $webstudio-link-color;
   color: $main-bg-color;
 }
 .social__media--svg:hover{
   fill:#FFFFFF;
+}
+.subscribe-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width:1200px){
+      flex-direction: row;
+  }
+}
+
+ .subscribe-title{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+
+  @media screen and (min-width:1200px){
+      text-align: left;
+  }
+}
+
+.email__input--element {
+  width:  100%;
+  height: 50px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  margin-right: 12px;
+  margin-bottom: 20px;
+  transition: border $time-ms $time-function;
+  outline: none;
+
+   @media screen and (min-width: 480px){
+    width: 450px;
+  }
+
+ @media screen and (min-width: 768px){
+    width: 358px;
+ }
+@media screen and (min-width: 1200px){
+    width: 358px;
+    margin-right: 12px;
+    margin-bottom: 0px;
+  }
+}
+
+.email__input--element :focus,
+.email__input--element :hover{
+  border: 1px solid $webstudio-link-color;
+  }
+
+.subscribe__button{
+  background-color: $webstudio-link-color;
+  border: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px 28px 10px 48px;
+}
+
+
+.subscribe__send--svg{
+  fill: currentColor;
+  margin-left: 30px;
 }
