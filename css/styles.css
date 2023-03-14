@@ -613,7 +613,6 @@ margin-bottom: 16px;
 }
 
 .our-team__list > li{
-  margin-right:30px;
   background-color: var(--main-bg-color);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 
@@ -623,10 +622,6 @@ margin-bottom: 16px;
 .our-team__list{
 display: flex;
 padding-left:0px;
-}
-.our-team__list > li{
-margin-right:30px;
-background-color: var(--main-bg-color);
 }
 .our__team--item:last-child{
 margin-right: 0;
