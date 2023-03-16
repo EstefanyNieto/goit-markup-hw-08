@@ -95,21 +95,19 @@
   margin-bottom: 20px;
   transition: border $time-ms $time-function;
   outline: none;
+ 
 
-   @media screen and (min-width: 480px){
-    width: 450px;
-  }
-
- @media screen and (min-width: 768px){
-    width: 358px;
- }
-@media screen and (min-width: 1200px){
-    width: 358px;
-    margin-right: 12px;
-    margin-bottom: 0px;
-  }
+@media screen and (min-width:480px) {
+width: 450px; 
 }
 
+@media screen and (min-width: 1200px) {
+margin-bottom: 0px;
+width: 358px;  
+}
+}
+
+  
 .email__input--element :focus,
 .email__input--element :hover{
   border: 1px solid $webstudio-link-color;
@@ -132,6 +130,14 @@
   justify-content: space-evenly;
   padding: 10px 28px 10px 48px;
 
+  @media screen and (min-width:480px) {
+    width: 450px; 
+    }
+    
+    @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+    width: 358px;  
+    }
   
 }
 
