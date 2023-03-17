@@ -687,15 +687,11 @@ header {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
 }
-@media screen and (min-width: 480px) {
-  .email__input--element {
-    width: 450px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .email__input--element {
-    margin-bottom: 0px;
-    width: 358px;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
   }
 }
 
