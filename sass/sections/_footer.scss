@@ -1,19 +1,33 @@
-
-.footer{
+.footer {
   background-color: $footer-bg-color;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 60px 60px;
+  display: flex;
+  flex-wrap: wrap;
   
+  @media screen and (min-width: 1200px) {
+    width: 1600px;
   }
-  .footer-global-container{
+}
+.footer-left-part{
+display: block;
+text-align: center;
+align-items: center;
+justify-items: center;
+ @media screen and (min-width: 786px) {
+      align-content: flex-start;
+    }
+    @media screen and (min-width: 1200px) {
+      text-align: left;
+    }
+  }
+
+  
+.footer-global-container{
     display: flex;
     justify-content: space-around;
     flex-basis: calc(100% / 1);
     flex-wrap: wrap;
-
-    
-
-    @media screen and (min-width:768px){
+  @media screen and (min-width:768px){
         flex-basis: calc(100% / 2);
     }
     @media screen and (min-width:1200px){
@@ -23,18 +37,45 @@
     
   }
 
-  .foot__flex{
-    display: flex;
-    align-items: baseline;
-}
-  .address{
-  text-decoration: none;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: $main-bg-color;
-  font-style: normal;
+
+.foot__flex{
+display: flex;
+flex-direction: column;
+ @media screen and (min-width: 786px) {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  padding-left: 76px;
+  padding-right: 89px;
+  justify-content: space-evenly;
   }
+  @media screen and (min-width: 1200px) {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  }
+}
+
+.address{
+text-decoration: none;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: $main-bg-color;
+font-style: normal;
+justify-content: center;
+text-align: center;
+margin-right: auto;
+  @media screen and (min-width: 786px) {
+    margin-left: 0px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 27px;
+    margin-right: 0px;
+  }
+}
+  
   
   .webstudio__link{
   color: $webstudio-link-color;
