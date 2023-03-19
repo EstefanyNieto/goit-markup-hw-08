@@ -1097,12 +1097,13 @@ header {
 }
 
 .our__team--item {
+  justify-content: space-between;
   background-color: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
-.our__team--item:last-child {
-  margin-bottom: 0px;
+.our__team--item:not(:last-child) {
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .our__team--item:nth-child(odd) {
@@ -1119,6 +1120,9 @@ header {
   .our__team--item:nth-child(2) {
     margin-right: 30px;
   }
+  .our__team--item:nth-child(-n+2) {
+    margin-bottom: 0;
+  }
 }
 
 .our-team__list > li {
@@ -1128,6 +1132,7 @@ header {
 .our-team__list {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 @media screen and (min-width: 768px) {
   .our-team__list {
