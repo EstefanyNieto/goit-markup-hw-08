@@ -3,13 +3,13 @@
   padding: 60px 60px;
   display: flex;
   flex-wrap: wrap;
-  
+   
   @media screen and (min-width: 1200px) {
     width: 1600px;
   }
-}
+ 
 .footer-left-part{
-display: block;
+  display: block;
 text-align: center;
 align-items: center;
 justify-items: center;
@@ -21,7 +21,7 @@ justify-items: center;
     }
   }
 
-  
+}
 .footer-global-container{
     display: flex;
     justify-content: space-around;

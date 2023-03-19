@@ -745,20 +745,19 @@ header {
     width: 1600px;
   }
 }
-
-.footer-left-part {
+.footer .footer-left-part {
   display: block;
   text-align: center;
   align-items: center;
   justify-items: center;
 }
 @media screen and (min-width: 786px) {
-  .footer-left-part {
+  .footer .footer-left-part {
     align-content: flex-start;
   }
 }
 @media screen and (min-width: 1200px) {
-  .footer-left-part {
+  .footer .footer-left-part {
     text-align: left;
   }
 }
