@@ -845,6 +845,7 @@ color: var(--webstudio-link-color);
   letter-spacing: 0.03em;
   color: var(--main-bg-color);
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .company__social--media {
