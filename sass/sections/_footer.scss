@@ -1,41 +1,40 @@
 .footer {
+  width: 100%;
   background-color: $footer-bg-color;
   padding: 60px 60px;
-  display: flex;
-  flex-wrap: wrap;
-   
-  @media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1200px) {
     width: 1600px;
   }
  
-.footer-left-part{
-  display: block;
-text-align: center;
-align-items: center;
-justify-items: center;
- @media screen and (min-width: 786px) {
-      align-content: flex-start;
+  .footer-left-part{
+    display: block;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+   @media screen and (min-width: 786px) {
+        align-content: flex-start;
+      }
+      @media screen and (min-width: 1200px) {
+        text-align: left;
+      }
     }
-    @media screen and (min-width: 1200px) {
-      text-align: left;
-    }
-  }
-
 }
+   
 .footer-global-container{
-    display: flex;
-    justify-content: space-around;
-    flex-basis: calc(100% / 1);
-    flex-wrap: wrap;
-  @media screen and (min-width:768px){
-        flex-basis: calc(100% / 2);
-    }
-    @media screen and (min-width:1200px){
-        flex-wrap: nowrap;
-        flex-basis: calc(100% / 3);
-    }
-    
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+@media screen and (min-width:768px){
+      flex-basis: calc(100% / 2);
   }
+  @media screen and (min-width:1200px){
+      flex-wrap: nowrap;
+      flex-basis: calc(100% / 3);
+  }
+  
+}
 
 
 .foot__flex{

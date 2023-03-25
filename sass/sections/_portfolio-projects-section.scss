@@ -61,9 +61,20 @@ overflow: hidden;
 .projects__section--item{
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
-margin-top: 50px;
+justify-content: space-around;
+padding-left: 0px;
+
+@media screen and (min-width:768px) {
+    flex-basis: calc(100% / 2);
+    justify-content: space-between;
 }
+@media screen and (min-width:1200px) {
+    flex-basis: calc(100% / 3);
+}
+
+}
+
+
 
 .portfolio__projects--item{
 margin-bottom: 30px;
