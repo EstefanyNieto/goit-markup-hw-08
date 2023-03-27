@@ -5,13 +5,14 @@
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding-top: 32px;
+  padding-bottom:32px;
   display: flex;
+  margin-right: 10px;
   align-items: center;
-  
   transition: color $time-ms $time-function;
   .contact__link > li:last-child {
-    margin-top:10 px;
+    margin-top:10px;
+    
 
 
   @media screen and (mind-width:768px){
@@ -47,7 +48,7 @@
   }
 
   .contact__info > li:first-child {
-    margin-right: 50px;
+    margin-bottom: 10px;
 
     @media screen and (mind-width:768px){
       margin: 0;

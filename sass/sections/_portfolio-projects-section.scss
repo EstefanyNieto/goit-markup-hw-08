@@ -1,8 +1,13 @@
 .button__choices{
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: wrap;
 }
+
+.button__choices:last-child{
+  margin-top: 10px;
+}
+ 
 
 .web__pages--button{
 background-color: $our-team-bg-color;
