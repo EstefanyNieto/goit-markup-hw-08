@@ -177,6 +177,7 @@ header {
   line-height: 1.14;
   letter-spacing: 0.02em;
   padding-bottom: 32px;
+  padding-top: 32px;
   display: flex;
   margin-right: 10px;
   align-items: center;
@@ -218,7 +219,7 @@ header {
 }
 
 .contact__info > li:first-child {
-  margin-bottom: 10px;
+  margin-right: 50px;
 }
 @media screen and (mind-width: 768px) {
   .contact__info > li:first-child {
@@ -455,9 +456,14 @@ header {
 
 @media screen and (max-width: 768px) {
   .features__list {
-    display: block;
+    display: flex;
     flex-wrap: wrap;
   }
+}
+
+.features__list {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .features__item:not(:last-child) {
@@ -544,12 +550,8 @@ header {
   margin-bottom: 9px;
 }
 
-.features__list {
-  display: flex;
-}
-
 .features__item {
-  width: 354px;
+  width: 270px;
 }
 
 .features__item:last-child {
@@ -576,7 +578,7 @@ header {
 
 .our__features--icon {
   margin-bottom: 30px;
-  width: 354px;
+  width: 270px;
   height: 120px;
   background-color: #F5F4FA;
   display: flex;
@@ -596,9 +598,10 @@ header {
 
 .find-us {
   text-align: center;
-  margin-left: auto;
+  margin-top: 48px;
   align-items: baseline;
   flex-direction: column;
+  justify-content: space-around;
 }
 @media screen and (min-width: 1200px) {
   .find-us {
@@ -673,9 +676,8 @@ header {
 }
 
 .email__input--element {
-  width: 450px;
+  width: 358px;
   height: 50px;
-  margin-bottom: 20px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -725,7 +727,7 @@ header {
 @media screen and (min-width: 1200px) {
   .subscribe__button {
     margin-bottom: 0px;
-    width: 358px;
+    width: 200px;
   }
 }
 
@@ -773,12 +775,12 @@ header {
 
 .foot__flex {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 @media screen and (min-width: 786px) {
   .foot__flex {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
   }
@@ -1192,6 +1194,7 @@ header {
 
 .button__choices > li {
   margin-right: 8px;
+  margin-top: 15px;
 }
 
 .button__choices:not(last-child) {
@@ -1250,7 +1253,7 @@ header {
   margin-bottom: 30px;
 }
 
-.portfolio__projects--item:nth-last-child(-n+3) {
+.portfolio__projects--item:last-child {
   margin-bottom: 0px;
 }
 

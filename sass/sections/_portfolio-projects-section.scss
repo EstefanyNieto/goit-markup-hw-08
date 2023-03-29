@@ -24,7 +24,8 @@ padding: 6px 27px 6px 27px;
 transition: color $time-ms $time-function , background-color $time-ms $time-function;
 }
 .button__choices > li{
-    margin-right: 8px;     
+    margin-right: 8px;
+    margin-top: 15px;     
 }
 .button__choices:not(last-child){
 margin-right:0;
@@ -84,9 +85,11 @@ padding-left: 0px;
 .portfolio__projects--item{
 margin-bottom: 30px;
 }
-.portfolio__projects--item:nth-last-child(-n+3){
+
+.portfolio__projects--item:last-child{
 margin-bottom: 0px;
 }
+
 
 .portfolio__projects--item:hover .overlay-text,
 .portfolio__projects--item:focus .overlay-text{

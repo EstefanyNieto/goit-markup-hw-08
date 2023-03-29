@@ -7,12 +7,19 @@
 
 
   .features__list{
+  
     @media screen and (max-width:768px){
-      display:block;
+      display:flex;
       flex-wrap: wrap;
     }
 }
 
+ 
+.features__list{
+  display:flex;
+flex-wrap: wrap;
+  }
+  
 .features__item{
   
   
@@ -99,13 +106,9 @@ font-weight: 700px;
     text-transform: uppercase;
     margin-bottom: 9px;
   }
-  
-  .features__list{
-    display:flex
-  }
-  
+ 
   .features__item{
-    width: 354px;
+    width: 270px;
     }
 
   .features__item:last-child{
@@ -134,7 +137,7 @@ font-weight: 700px;
   
   .our__features--icon{
     margin-bottom: 30px;
-    width: 354px;
+    width: 270px;
     height: 120px;
     background-color: $our-team-bg-color;
     display: flex;
