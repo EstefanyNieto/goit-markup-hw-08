@@ -108,8 +108,20 @@ font-weight: 700px;
   }
  
   .features__item{
-    width: 270px;
+    
+   @media screen and (min-width:1200px){
+      width: 270px;
     }
+
+      @media screen and (min-width:768px){
+      width: 354px;
+    }
+
+    @media screen and (min-width:480px){
+    width:450px;
+  }
+}
+  
 
   .features__item:last-child{
     margin-right: 0px;
@@ -144,4 +156,17 @@ font-weight: 700px;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    @media screen and(min-width:1200px){
+      width: 270px;
+    }
+
+      @media screen and (min-width:768px){
+      width: 354px;
+    }
+
+    @media screen and (min-width:480px){
+    width:450px;
   }
+}
+  
+  

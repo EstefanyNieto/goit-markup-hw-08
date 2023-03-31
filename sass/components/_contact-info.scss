@@ -5,8 +5,8 @@
   font-weight: 400;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
-  padding-top: 32px;
+  
+ 
   display: flex;
   margin-right: 10px;
   align-items: center;
@@ -49,7 +49,7 @@
   }
 
   .contact__info > li:first-child {
-    margin-right: 50px;
+    margin-bottom: 10px;
 
     @media screen and (mind-width:768px){
       margin: 0;
@@ -61,42 +61,11 @@
     fill: currentColor;
     margin-right: 10px;
     transition: color $time-ms $time-function;
+    cursor: pointer;
   }
   .contact__icon:hover{
     fill: $webstudio-link-color;
   }
   
   
-.mobile-menu__link--active:hover{
-  color: $webstudio-link-color;
-}
 
-
-.mobile-menu__item{
-font-family: Roboto;
-font-size: 40px;
-font-weight: 500;
-line-height: 47px;
-letter-spacing: 0.02em;
-text-align: left;
-color: black;
-}
-
-.mobile-menu-media__link{
-font-family: Roboto;
-font-size: 18px;
-font-weight: 500;
-line-height: 22px;
-letter-spacing: 0.02em;
-text-align: left;
-color:solid #2196F3;
-margin-left: 10px;
-}
-
-
-.mobile-menu-media__item{
-  color: #2196F3;
-}
-.menu-toggle{
-  fill: #2196F3;
-}
