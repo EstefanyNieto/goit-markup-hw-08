@@ -38,6 +38,12 @@
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
+
+@media  screen and (min-width: 480px){
+display: flex;
+flex-direction: column;
+}
+
  @media screen and (min-width: 786px) {
   display: flex;
   

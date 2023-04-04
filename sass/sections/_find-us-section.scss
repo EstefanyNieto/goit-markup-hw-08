@@ -19,7 +19,13 @@
   margin-left: 70px;
   text-align:left;
     }
-}
+    @media screen and (mind-width:480px){
+      margin-top:50px;
+      text-align: center;
+    }
+      
+    }
+
 
 
 .company__social--media {
