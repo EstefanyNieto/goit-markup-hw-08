@@ -24,7 +24,7 @@ flex-wrap: wrap;
   .features__item{
     width: 270px;
   }
-  
+
 .features__item{
   
   
@@ -161,7 +161,8 @@ font-weight: 700px;
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    @media screen and(min-width:1200px){
+
+    @media screen and (min-width:1200px){
       width: 270px;
     }
 
