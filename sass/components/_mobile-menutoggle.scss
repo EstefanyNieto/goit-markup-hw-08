@@ -1,4 +1,23 @@
  .menu-toggle{
+  max-width: 41px;
+  margin-left: 276px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0a7ddb;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+
+    &:hover,
+    &:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+ }
+}
+ 
+ .menu-toggle{
    
   @media screen and (min-width:768px){
       display: none;
