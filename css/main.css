@@ -145,7 +145,7 @@ header {
   position: absolute;
   top: 16px;
   right: 16px;
-  color: #212121;
+  color: #b00d0d;
 }
 
 .mobile-menu {
@@ -314,6 +314,7 @@ header {
     display: block;
     padding-top: 0;
     padding-bottom: 0;
+    justify-content: space-between;
   }
 }
 
@@ -734,6 +735,7 @@ header {
 @media screen and (min-width: 768px) {
   .our__features--icon {
     width: 354px;
+    align-items: center;
   }
 }
 @media screen and (min-width: 480px) {
@@ -907,6 +909,11 @@ header {
   text-align: center;
   align-items: center;
   justify-items: center;
+}
+@media screen and (min-width: 480px) {
+  .footer .footer-left-part {
+    margin-bottom: 10px;
+  }
 }
 @media screen and (min-width: 786px) {
   .footer .footer-left-part {

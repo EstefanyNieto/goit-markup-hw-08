@@ -20,6 +20,7 @@
     display: block;
     padding-top: 0;
     padding-bottom: 0;
+    justify-content: space-between;
     
   }
 
@@ -52,7 +53,7 @@
     margin-right: 50px;
 
     @media screen and (mind-width:768px){
-      margin: 0;
+      margin:0;
       
     }
   }
