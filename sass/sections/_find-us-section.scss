@@ -10,7 +10,7 @@
 
 .find-us{
   text-align: center;
-  
+  margin-top: 48px;
   align-items: baseline;
   flex-direction: column;
   justify-content: space-around;
@@ -20,7 +20,7 @@
   text-align:left;
     }
     @media screen and (mind-width:480px){
-      margin-top:50px;
+      margin-top:48px;
       text-align: center;
     }
       
@@ -139,21 +139,24 @@
   margin-right: 12px;
   letter-spacing: 0.06em;
   display: flex;
-
   align-items: center;
   justify-content: space-evenly;
   padding: 10px 28px 10px 48px;
-  margin-top: 20px;
+  
 
   @media screen and (min-width:480px) {
- 
+    margin-top: 20px;
     }
     
-    @media screen and (min-width: 1200px) {
-    margin-bottom: 0px;
-    width: 200px;  
+    @media screen and (min-width:768px){
+      margin-top: 20px;
     }
-  
+
+    @media screen and (min-width: 1200px) {
+      width: 200px;  
+      margin-top: 0px;
+      }
+    
 }
 
 

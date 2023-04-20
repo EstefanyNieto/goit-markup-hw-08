@@ -51,9 +51,10 @@
 
   .contact__info > li:first-child {
     margin-right: 50px;
+    margin-bottom: 10px;
 
     @media screen and (mind-width:768px){
-      margin:0;
+      margin-bottom: 10px;
       
     }
   }

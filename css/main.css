@@ -106,7 +106,6 @@ header {
 }
 
 .menu-toggle {
-  max-width: 41px;
   margin-left: 276px;
   display: flex;
   align-items: center;
@@ -361,10 +360,11 @@ header {
 
 .contact__info > li:first-child {
   margin-right: 50px;
+  margin-bottom: 10px;
 }
 @media screen and (mind-width: 768px) {
   .contact__info > li:first-child {
-    margin: 0;
+    margin-bottom: 10px;
   }
 }
 
@@ -698,7 +698,7 @@ header {
 
 @media screen and (min-width: 480px) {
   .features__item {
-    width: 480px;
+    width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -751,13 +751,13 @@ header {
 }
 @media screen and (min-width: 768px) {
   .our__features--icon {
-    width: 354px;
+    width: 450px;
     align-items: center;
   }
 }
 @media screen and (min-width: 480px) {
   .our__features--icon {
-    width: 450px;
+    width: 354px;
   }
 }
 
@@ -772,6 +772,7 @@ header {
 
 .find-us {
   text-align: center;
+  margin-top: 48px;
   align-items: baseline;
   flex-direction: column;
   justify-content: space-around;
@@ -785,7 +786,7 @@ header {
 }
 @media screen and (mind-width: 480px) {
   .find-us {
-    margin-top: 50px;
+    margin-top: 48px;
     text-align: center;
   }
 }
@@ -903,12 +904,21 @@ header {
   align-items: center;
   justify-content: space-evenly;
   padding: 10px 28px 10px 48px;
-  margin-top: 20px;
+}
+@media screen and (min-width: 480px) {
+  .subscribe__button {
+    margin-top: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .subscribe__button {
+    margin-top: 20px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .subscribe__button {
-    margin-bottom: 0px;
     width: 200px;
+    margin-top: 0px;
   }
 }
 
@@ -973,6 +983,7 @@ header {
 @media screen and (min-width: 786px) {
   .foot__flex {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: baseline;
   }
@@ -1362,6 +1373,19 @@ header {
 .button__choices {
   display: flex;
   justify-content: flex-start;
+}
+@media screen and (min-width: 480px) {
+  .button__choices {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button__choices {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .button__choices:last-child {

@@ -1,8 +1,18 @@
 .button__choices{
   display: flex;
   justify-content: flex-start;
-  
+
+  @media screen and (min-width:480px) {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+@media screen and (min-width:768px){
+display: flex;
+justify-content: center;
 }
+}
+
 
 .button__choices:last-child{
   margin-top: 10px;
